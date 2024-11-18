@@ -1,2 +1,3 @@
 module PracticaEntorns {
+	exports PracticaEntorns;
 }
