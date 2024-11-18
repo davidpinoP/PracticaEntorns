@@ -7,9 +7,12 @@ public class PracticaEntorns {
 		int[] sumArray = {4,36,4,23,867};
 		int[] subArray = {785675, 56, 5675, 56544, 234};
 		int[] prodArray = {6, 8, 20, 23, 12};
-		
+		int resulSuma = 0;
 		// User 1 fer la suma dels elements de sumArray
 		
+		for (int i = 0; i < subArray.length; i++) {
+			resulSuma += sumArray[i];
+		} System.out.println("El resultado de la suma es: " + resulSuma);
 		
 		
 		// User 2 fer la resta dels elements de subArray
